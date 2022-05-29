@@ -1,0 +1,26 @@
+@model moneylandingApp.Models.OurBankAmount
+
+@{
+
+
+}
+
+
+<!-- change our bank baaalnce -->
+<div class="">
+    <div class="container mx-auto px-10 max-w-3xl py-20">
+        <div class="pb-10">
+            <a  class="font-sans text-xl border-2 border-black py-1 px-2">Rturn To List</a>
+        </div>
+        <h1 class="font-sans text-2xl pb-5">Add Our Bank Balance</h1>
+
+        <div class="">
+            <form asp-controller="SuperAdmin" asp-action="AddOurBankAmount" method="post" class="max-w-xl">
+                <div class="pb-4">
+                <input asp-for="Amount" type="text" placeholder="$ bank amount" class="w-full py-2 text-center border-red-600 border-2">
+                </div>
+                <button type="submit" class="bg-green-500 py-2 text-center text-white w-full">Add Balance</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+@* @model moneylandingApp.Models.Borrower
+
+@{
+
+}
+
+
+<!-- repay the money -->
+<div class="">
+    <div class="container mx-auto px-10 max-w-3xl py-20">
+        <div class="pb-10">
+            <a asp-controller="SuperAdmin" asp-action="AdminPanel" class="font-sans text-xl border-2 border-black py-1 px-2">Rturn To List</a>
+        </div>
+        <h1 class="font-sans text-2xl pb-5"> <span class="font-bold">@Model.FirstName @Model.LastName,</span>  Repaying some cash</h1>
+
+        <div class="">
+            <form asp-action="RepayBorrowerMoney" asp-controller="SuperAdmin" method="post" class="max-w-xl">
+                <div class="text-red-600" asp-validation-summary="ModelOnly"></div>
+                <div class="pb-4">
+                    <input asp-for="RepayedAmount" type="text" placeholder="$ repay" class="w-full py-2 text-center border-red-600 border-2">
+                    <span asp-validation-for="RepayedAmount" class="text-red-600"></span>
+                </div>
+                <button type="submit" class="bg-blue-500 py-2 text-center  text-white text-whie w-full">Repay Amount</button>
+            </form>
+        </div>
+    </div>
+</div> *@

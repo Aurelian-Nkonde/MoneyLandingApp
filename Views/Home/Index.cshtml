@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- showcasing -->
+<div id="casing" class="showcasing">
+    <div class="container max-w-3xl mx-auto px-10">
+        <h1 class="font-sans pb-7 text-5xl tracking-wider font-bold text-white">Here's us, MoneyLanding_Group</h1>
+        <p class="font-san pb-8 text-2xl text-gray-300">
+            Lorem ipsum dolor sit amet  Esse ullam dolorem ab dicta debitis odio itaque obcaecati necessitatibus ipsum.
+        </p>
+        <div class="flex gap-4 items-center">
+            <a asp-controller="Home" asp-action="Index" class="font-sans text-white text-xl bg-red-600 py-3 px-10 shadow-xl">Contact</a>
+            <a asp-controller="LandingMoney" asp-action="GetMoney"  class="font-sans text-white text-xl bg-red-600 py-3 px-10 shadow-xl">GetMoney</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- why us -->
+<div class="bg-gray-100">
+    <div class="container mx-auto max-w-5xl py-20">
+        <h1 class="font-sans text-4xl text-center underline pb-3">Why Choosing Us</h1>
+        <p class="max-w-xl mx-auto font-sans text-xl text-center pb-8"> elit. Ea deserunt at id, accusantium doloremque impedit error excepturi dignissimos corporis!</p>
+        <div class="grid grid-cols-3 gap-4">
+
+            <div class="py-8 px-6 shadow-xl transition ease-in-out duration-150 hover:shadow-sm">
+                <h1 class="font-sans text-2xl underline pb-4 text-center">Fast</h1>
+                <p  class="font-sans text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deserunt sequi maiores commodi magnam.
+                </p>
+            </div>
+            <div class="py-8 px-6 shadow-xl transition ease-in-out duration-150 hover:shadow-sm">
+                <h1 class="font-sans text-2xl underline pb-4 text-center">TrustWorthy</h1>
+                <p  class="font-sans text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing Lorem, ipsum. elit. Aspernatur deserunt sequi maiores commodi magnam.
+                </p>
+            </div>
+            <div class="py-8 px-6 shadow-xl transition ease-in-out duration-150 hover:shadow-sm">
+                <h1 class="font-sans text-2xl underline pb-4 text-center">Legit</h1>
+                <p class="font-sans text-lg">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.  deserunt sequi maiores commodi magnam.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="banner">
+    <div class="container mx-auto max-w-3xl py-20">
+        <div class="text-center">
+            <h1 class="font-sans text-white text-4xl font-bold pb-10">Lorem, ipsum dolor.</h1>
+            <a asp-controller="LandingMoney" asp-action="GetMoney" class="font-sans text-xl bg-red-500 py-3 px-10 transition ease-in-out duration-150 hover:bg-red-700 shadow-xl">Go Get The Money</a>
+        </div>
+    </div>    
+</div>

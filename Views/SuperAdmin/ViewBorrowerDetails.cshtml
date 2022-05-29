@@ -1,0 +1,63 @@
+@model moneylandingApp.Models.Borrower
+
+@{
+
+}
+
+<!-- how this works -->
+<div class="">
+    <div class="container mx-auto px-10 max-w-3xl py-20">
+        <a asp-controller="SuperAdmin" asp-action="AdminPanel" class="font-sans text-xl border-2 border-black py-1 px-2">Rturn To List</a>
+        <h1 class="font-sans text-2xl text-center pb-4">@Model.FirstName @Model.LastName owes: </h1>
+        <form>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="FirstName">First-Name</label>
+                    <input asp-for="FirstName" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+                <div class="">
+                    <label asp-for="LastName">Last-Name</label>
+                    <input asp-for="LastName" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="Email">Email</label>
+                    <input asp-for="Email" disabled type="email" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+                <div class="">
+                    <label asp-for="PhoneNumber">PhoneNumber</label>
+                    <input asp-for="PhoneNumber" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+            </div>
+            <div class="py-2">
+                <label asp-for="DateOfBirth">DateOfBirth</label>
+                <input asp-for="DateOfBirth" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+            </div>
+            <div class="py-2">
+                <label asp-for="IdentityIdNumber">Id-Number</label>
+                <input asp-for="IdentityIdNumber" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="City">City</label>
+                    <input asp-for="City" disabled type="email" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+                <div class="">
+                    <label asp-for="HouseAddress">House-Address</label>
+                    <input asp-for="HouseAddress" disabled type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="CashAmount">CashAmount</label>
+                    <input asp-for="CashAmount" disabled type="email" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+                <div class="">
+                    <label asp-for="PayingDate">PayingData</label>
+                    <input asp-for="PayingDate" disabled  type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

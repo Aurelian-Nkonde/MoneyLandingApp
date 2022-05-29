@@ -1,0 +1,19 @@
+.showcasing{
+  background:  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/imgs/4K\ No\ Logo\ G550.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+
+.banner{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/imgs/pexels-sharon-mccutcheon-1212407.jpg);
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

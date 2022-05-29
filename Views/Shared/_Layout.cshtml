@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - moneylandingApp</title>
+    <link rel="stylesheet" href="~/css/tailwind.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/moneylandingApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- navigation -->
+    <header>
+        <div class="container mx-auto py-5 flex justify-around items-center">
+            <h1 class="font-sans text-3xl text-white bg-red-500 py-1 px-2 font-bold">MoneyLanding</h1>
+            <ul class="flex items-center">
+                <li class="font-sans text-xl mr-8">
+                    <a asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="font-sans text-xl mr-8">
+                    <a asp-controller="Home" asp-action="Contact">Contact</a>
+                </li>
+                <li class="font-sans text-xl mr-8">
+                    <a asp-controller="LandingMoney" asp-action="GetMoney">GetMoney</a>
+                </li>
+                <li class="font-sans text-xl mr-8">
+                    <a asp-controller="Home" asp-action="About">About</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+    <!-- footer -->
+    <div class="bg-red-700">
+        <div class="container mx-auto py-20">
+            <h1 class="font-sans text-3xl text-white font-bold text-center pb-3">MoneyLanding</h1>
+            <p class="font-sans text-white underline text-xl text-center">&copy;2022</p>
+        </div>
+    </div>
+
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

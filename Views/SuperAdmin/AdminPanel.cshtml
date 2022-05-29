@@ -1,0 +1,138 @@
+@model IEnumerable<moneylandingApp.Models.Borrower>
+
+
+@{
+    ViewData["currentData"] = "1/1/0001";
+}
+
+<div class="bg-gray-100">
+    <div class="container mx-auto px-10 max-w-5xl py-28">
+        <div class="pb-10 ">
+        <h1 class="font-sans text-4xl text-center bg-red-200 py-2 px-4 ">Admin-Panel-MoneyLanding</h1>
+        </div>
+        
+        <div class=" max-w-2xl  mx-auto grid grid-cols-2 items-center gap-5 pb-10">
+            @* <h2 class="grid-cols-2 text-xl">Available Cash: $<span class="bg-blue-400 py-1 px-2 border-2">10, 000</span></h2> *@
+            <div class="">
+                <a asp-controller="SuperAdmin" asp-action="AddOurBankAmount" class="grid-cols-1 bg-blue-600 py-2 px-4 text-center text-white shadow-xl">Add Amount</a>
+                <a asp-controller="SuperAdmin" asp-action="ChangeOurBankAmount" class="grid-cols-1 bg-blue-600 py-2 px-4 text-center text-white shadow-xl">Change Amount</a>
+            </div>
+            <a asp-controller="SuperAdmin" asp-action="ViewCurrentBalance" class="grid-cols-1 bg-blue-400 py-2 px-4 text-center text-white shadow-xl">View Current Amount</a>
+        </div>
+        <div class="pb-10">
+            <h2 class="font-sans text-xl"><span> @Model.Count() approved Requests </h2>
+        </div>
+
+        <div class="flex gap-8 items-center pb-10">
+            <h1  class="font-sans text-xl bg-purple-300 py-2 px-10">
+                <a asp-controller="SuperAdmin" asp-action="ListOfPendingRequests">List of Pending Request</a>
+            </h1>
+            <h1 class="font-sans text-xl bg-red-300 py-2 px-10">
+                <a asp-controller="SuperAdmin" asp-action="ListOfRejectedRequests">List of Rejected Request</a>
+            </h1>
+        </div>
+        <h1 class="font-sans text-2xl pb-6 underline text-center">List of borrowers</h1>
+        @if(Model.Count() >= 1)
+        {
+        <table class="table-fixed w-full text-center">
+            <thead class="">
+                <tr>
+                    <th class="font-sans text-xl">FirstName</th>
+                    <th class="font-sans text-xl">LastName</th>
+                    <th class="font-sans text-xl">Amount($)</th>
+                    <th class="font-sans text-xl">Repayed</th>
+                    <th class="font-sans text-xl">DateToPay</th>
+                    <th class="font-sans text-xl"></th>
+                    <th class="font-sans text-xl"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+
+                    <td class="border-2 border-gray-500 py-2 px-2">
+                        <a asp-controller="SuperAdmin" asp-action="ViewBorrowerDetails" asp-route-Id="@item.Id">@item.FirstName.ToUpper()</a>
+                    </td>
+                    <td class="border-2 border-gray-500 py-2 px-2">@item.LastName</td>
+                    <td class="border-2 border-gray-500 py-2 px-2">@item.CashAmount</td>
+                    @if(item.Repayed == true)
+                    {
+                    <td class="border-2 border-gray-500 py-2 px-2 underline bg-green-200">
+                        @item.Repayed
+                    </td> 
+                    }
+                    else
+                    {
+                    <td class="border-2 border-gray-500 py-2 px-2 underline bg-red-200">
+                        @item.Repayed
+                    </td> 
+                    }
+                    <td  class="border-2 border-gray-500 py-2 px-2 ">
+                        @item.PayingDate
+                    </td>
+                    @if(item.Repayed == true)
+                    {
+                    <div class="">
+                        <td  class=" py-2 px-2 bg-red-gray-400 text-red-500">
+                           <a>-</a>
+                        </td>
+                    </div>
+                        <td  class=" py-2 px-2 bg-red-gray-400 text-red-500">
+                           <a>-</a>
+                        </td>
+                    }
+                    else
+                    {
+                    <div class="">
+                        <td  class=" py-2 px-2 bg-red-700 text-white">
+                            <a aria-disabled="true" asp-action="SendBorrowerEmail" asp-route-Id="@item.Id" asp-controller="SuperAdmin">Alert Email</a>
+                        </td>
+
+                    </div>
+                    <td  class=" py-2 px-2 bg-green-400 text-white">
+                       <a aria-disabled="true" asp-action="RepayMoney" asp-route-Id="@item.Id" asp-controller="SuperAdmin">Repay</a>
+                    </td>
+                    }
+                </tr>
+                }
+            </tbody>
+        </table>
+        }
+        else
+        {
+        <table class="table-fixed w-full text-center">
+            <thead class="">
+                <tr>
+                    <th class="font-sans text-xl">FirstName</th>
+                    <th class="font-sans text-xl">LastName</th>
+                    <th class="font-sans text-xl">Amount($)</th>
+                    <th class="font-sans text-xl">Repayed</th>
+                    <th class="font-sans text-xl">DateToPay</th>
+                    <th class="font-sans text-xl"></th>
+                    <th class="font-sans text-xl"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border-2 border-gray-500 py-2 px-2 underline">
+                        -
+                    </td>
+                    <td class="border-2 border-gray-500 py-2 px-2">-</td>
+                    <td class="border-2 border-gray-500 py-2 px-2">-</td>
+                    <td class="border-2 border-gray-500 py-2 px-2">-</td>
+                    <td  class="border-2 border-gray-500 py-2 px-2 ">
+                        -
+                    </td>
+                    <td  class=" py-2 px-2 bg-red-400 text-white">
+                        -
+                    </td>
+                    <td  class=" py-2 px-2 bg-green-200 text-white">
+                        -
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        }
+    </div>
+</div>

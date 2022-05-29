@@ -1,0 +1,77 @@
+@model moneylandingApp.Models.Borrower;
+
+
+@{
+
+}
+
+
+
+<!-- how this works -->
+<div class="">
+    <div class="container mx-auto px-10 max-w-3xl py-20">
+        <h1 class="font-sans text-2xl text-center pb-4">Please apply for cash below</h1>
+        <form asp-action="FillingForm" asp-controller="LandingMoney" method="post">
+            <div class="text-red-600" asp-validation-summary="ModelOnly"></div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="FirstName">First-Name</label>
+                    <input asp-for="FirstName" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="FirstName" class="text-red-600"></span>
+                </div>
+                <div class="">
+                    <label asp-for="LastName">Last-Name</label>
+                    <input asp-for="LastName" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="Email" class="text-red-600"></span>
+                </div>
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="Email">Email</label>
+                    <input asp-for="Email" type="email" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="Email" class="text-red-600"></span>
+                </div>
+                <div class="">
+                    <label asp-for="PhoneNumber">PhoneNumber</label>
+                    <input asp-for="PhoneNumber" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="PhoneNumber" class="text-red-600"></span>
+                </div>
+            </div>
+            <div class="py-2">
+                <label asp-for="DateOfBirth">DateOfBirth</label>
+                <input asp-for="DateOfBirth" type="date" class="w-full py-2 px-4 border-2 border-green-500">
+                <span asp-validation-for="DateOfBirth" class="text-red-600"></span>
+            </div>
+            <div class="py-2">
+                <label asp-for="IdentityIdNumber">Id-Number</label>
+                <input asp-for="IdentityIdNumber" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                <span asp-validation-for="IdentityIdNumber" class="text-red-600"></span>
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="City">City</label>
+                    <input asp-for="City" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="City" class="text-red-600"></span>
+                </div>
+                <div class="">
+                    <label asp-for="HouseAddress">House-Address</label>
+                    <input asp-for="HouseAddress" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="HouseAddress" class="text-red-600"></span>
+                </div>
+            </div>
+            <div class="py-2 grid grid-cols-2 gap-3">
+                <div class="">
+                    <label asp-for="CashAmount">CashAmount</label>
+                    <input  asp-for="CashAmount" type="text" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="CashAmount" class="text-red-600"></span>
+                </div>
+                <div class="">
+                    <label asp-for="PayingDate">PayingData</label>
+                    <input asp-for="PayingDate" type="date" class="w-full py-2 px-4 border-2 border-green-500">
+                    <span asp-validation-for="PayingDate" class="text-red-600"></span>
+                </div>
+            </div>
+            <button type="submit" class="bg-green-500 py-3 text-white w-full">Apply Request</button>
+        </form>
+    </div>
+</div>
