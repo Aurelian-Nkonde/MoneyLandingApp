@@ -20,6 +20,7 @@ namespace moneylandingApp.Controllers
             _databaseContext = databaseContext;
         }
         
+        
         public async Task<IActionResult> AdminPanel()
         {
             var borrowersList = await _superAdminRepoInterface.GetAListOfAllBorrowers();
