@@ -8,7 +8,7 @@
 <div class="bg-gray-100">
     <div class="container mx-auto px-10 max-w-5xl py-28">
         <div class="pb-10 ">
-        <h1 class="font-sans text-4xl text-center bg-red-200 py-2 px-4 ">Admin-Panel-MoneyLanding</h1>
+        <h1 class="font-sans text-4xl text-center bg-red-400 py-2 px-4 ">Admin-Panel-MoneyLanding</h1>
         </div>
         
         <div class=" max-w-2xl  mx-auto grid grid-cols-2 items-center gap-5 pb-10">
@@ -44,6 +44,7 @@
                     <th class="font-sans text-xl">DateToPay</th>
                     <th class="font-sans text-xl"></th>
                     <th class="font-sans text-xl"></th>
+                    <th>@@</th>
                 </tr>
             </thead>
             <tbody>
@@ -80,6 +81,9 @@
                     </div>
                         <td  class=" py-2 px-2 bg-red-gray-400 text-red-500">
                            <a>-</a>
+                        </td>
+                        <td  class=" py-2 px-2 bg-red-600 text-red-100">
+                           <a asp-controller="SuperAdmin" asp-action="ClearCustomer" asp-route-Id="@item.Id">Remove</a>
                         </td>
                     }
                     else

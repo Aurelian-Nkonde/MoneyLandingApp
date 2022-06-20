@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = moneylandingApp
 build_property.RootNamespace = moneylandingApp
-build_property.ProjectDir = c:\Users\Aconte\Desktop\Asp.net\MoneyLanding\moneylandingApp\
+build_property.ProjectDir = C:\Users\Aconte\Desktop\Asp.net\MoneyLanding\moneylandingApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Aconte\Desktop\Asp.net\MoneyLanding\moneylandingApp
+build_property.MSBuildProjectDirectory = C:\Users\Aconte\Desktop\Asp.net\MoneyLanding\moneylandingApp
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/About.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/Contact.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/Index.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/doneRequesting.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/doneRequesting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XGRvbmVSZXF1ZXN0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/FillingForm.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/FillingForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XEZpbGxpbmdGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/GetMoney.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/LandingMoney/GetMoney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XEdldE1vbmV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/Error.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/AddOurBankAmount.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/AddOurBankAmount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxBZGRPdXJCYW5rQW1vdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/AdminPanel.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/AdminPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ChangeOurBankAmount.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ChangeOurBankAmount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxDaGFuZ2VPdXJCYW5rQW1vdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ListOfPendingRequests.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ListOfPendingRequests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxMaXN0T2ZQZW5kaW5nUmVxdWVzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ListOfRejectedRequests.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ListOfRejectedRequests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxMaXN0T2ZSZWplY3RlZFJlcXVlc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/oops.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/oops.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxvb3BzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/RepayMoney.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/RepayMoney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxSZXBheU1vbmV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/SendBorrowerEmail.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/SendBorrowerEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxTZW5kQm9ycm93ZXJFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ViewBorrowerDetails.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ViewBorrowerDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxWaWV3Qm9ycm93ZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ViewCurrentBalance.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/SuperAdmin/ViewCurrentBalance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxWaWV3Q3VycmVudEJhbGFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/_ViewImports.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/_ViewStart.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Aconte/Desktop/Asp.net/MoneyLanding/moneylandingApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-psash00t5l

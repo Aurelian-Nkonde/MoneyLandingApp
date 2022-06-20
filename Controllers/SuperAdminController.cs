@@ -161,5 +161,22 @@ namespace moneylandingApp.Controllers
             return View();
         }
 
+
+        public IActionResult ClearCustomer(int? id)
+        {
+            if(id == null && id == 0)
+            {
+                return NotFound();
+            }
+            var actualUser = _databaseContext.borrowers.FirstOrDefault(a => a.Id == id);
+            if(actualUser != null)
+            {
+                _databaseContext.borrowers.Remove(actualUser);
+                _databaseContext.SaveChanges();
+                return RedirectToAction("AdminPanel");
+            }
+            return View("oops");
+        }
+
     }
 }

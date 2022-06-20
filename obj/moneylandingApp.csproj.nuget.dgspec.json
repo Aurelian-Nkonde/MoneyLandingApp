@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {}
+    "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {
+    "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
+        "projectUniqueName": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
         "projectName": "moneylandingApp",
-        "projectPath": "c:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
+        "projectPath": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
         "packagesPath": "C:\\Users\\Aconte\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\obj\\",
+        "outputPath": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aconte\\AppData\\Roaming\\NuGet\\NuGet.Config",
