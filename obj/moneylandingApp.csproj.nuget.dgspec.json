@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {}
+    "C:\\Users\\aconte\\Desktop\\projects\\Apps\\MoneyLandingApp\\moneylandingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj": {
+    "C:\\Users\\aconte\\Desktop\\projects\\Apps\\MoneyLandingApp\\moneylandingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
+        "projectUniqueName": "C:\\Users\\aconte\\Desktop\\projects\\Apps\\MoneyLandingApp\\moneylandingApp.csproj",
         "projectName": "moneylandingApp",
-        "projectPath": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\moneylandingApp.csproj",
-        "packagesPath": "C:\\Users\\Aconte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aconte\\Desktop\\Asp.net\\MoneyLanding\\moneylandingApp\\obj\\",
+        "projectPath": "C:\\Users\\aconte\\Desktop\\projects\\Apps\\MoneyLandingApp\\moneylandingApp.csproj",
+        "packagesPath": "C:\\Users\\aconte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aconte\\Desktop\\projects\\Apps\\MoneyLandingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aconte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aconte\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

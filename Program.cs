@@ -13,7 +13,7 @@ builder.Services.AddScoped<ISuperAdmin, SuperAdminRepository>();
 builder.Services.AddScoped<ILandingMoney, LandingMoneyRepository>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(opt => 
-opt.UseNpgsql(builder.Configuration.GetConnectionString("moneylanding")));
+opt.UseNpgsql(builder.Configuration.GetConnectionString("landingDone")));
 
 var app = builder.Build();
 

@@ -42,13 +42,14 @@ namespace moneylandingApp.Controllers
         {
             if(ModelState.IsValid)
             {
-                var changingourFirstValue = _databaseContext.ourBankAmounts.Where(e => e.Amount >= 100).First();
-                if(newAmountFromSuperAdmin.Amount >= 100 &&  newAmountFromSuperAdmin.Amount <= 100000)
+                var changingourFirstValue = _databaseContext.ourBankAmounts.FirstOrDefault(a => a.Amount >= 100);
+                if(newAmountFromSuperAdmin.Amount >= 100 &&  newAmountFromSuperAdmin.Amount <= 1000000)
                 {
-                    _superAdminRepoInterface.UpdatingBankBalance(changingourFirstValue);
+                    changingourFirstValue.Amount = newAmountFromSuperAdmin.Amount;
+                    _databaseContext.ourBankAmounts.Update(changingourFirstValue);
+                    _databaseContext.SaveChanges();
                     return RedirectToAction("AdminPanel");
                 }
-                Console.WriteLine($"this is our first value amount id  {changingourFirstValue.Id}");
                 return View(newAmountFromSuperAdmin);
             }
             return View(newAmountFromSuperAdmin);
@@ -70,7 +71,7 @@ namespace moneylandingApp.Controllers
                 if(bankAmountToAdd.Amount >= 100)
                 {
                     var bank = _databaseContext.ourBankAmounts.Where(e => e.Amount >= 1).ToList();
-                    if(bank.Count() <= 0)
+                    if(bank.Count() <= 1)
                     {
                     _superAdminRepoInterface.AddingBankBalance(bankAmountToAdd);
                     return RedirectToAction("AdminPanel");
@@ -86,9 +87,19 @@ namespace moneylandingApp.Controllers
 
         public IActionResult ViewCurrentBalance()
         {
-            var data = _databaseContext.ourBankAmounts.FirstOrDefault(e => e.Amount >= 0);
+            var data = _databaseContext.ourBankAmounts.FirstOrDefault(a => a.Amount >= 100);
+            // Console.WriteLine(data);
             return View(data);
         }
+
+
+        // public IActionResult DeleteBankBalance()
+        // {
+        //     var currentBalance = _databaseContext.ourBankAmounts.FirstOrDefault(a => a.Amount >= 100);
+        //     _databaseContext.ourBankAmounts.Remove(currentBalance);
+        //     _databaseContext.SaveChanges();
+        //     return RedirectToAction("AdminPanel");
+        // }
 
 
         public IActionResult ViewBorrowerDetails(int id)

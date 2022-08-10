@@ -10,6 +10,6 @@ namespace moneylandingApp.Models
         [Key]
         public int Id { get;set; }
         [Required]
-        public int Amount { get;set; } = 100;
+        public int Amount { get;set; }
     }
 }
