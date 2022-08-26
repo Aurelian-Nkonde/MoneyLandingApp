@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = moneylandingApp
 build_property.RootNamespace = moneylandingApp
-build_property.ProjectDir = C:\Users\aconte\Desktop\projects\Apps\MoneyLandingApp\
+build_property.ProjectDir = c:\Users\aconte\Desktop\projects\Apps\MoneyLandingApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aconte\Desktop\projects\Apps\MoneyLandingApp
+build_property.MSBuildProjectDirectory = c:\Users\aconte\Desktop\projects\Apps\MoneyLandingApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/About.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/Contact.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/Index.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/doneRequesting.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/doneRequesting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XGRvbmVSZXF1ZXN0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/FillingForm.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/FillingForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XEZpbGxpbmdGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/GetMoney.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/LandingMoney/GetMoney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZGluZ01vbmV5XEdldE1vbmV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/Error.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/AddOurBankAmount.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/AddOurBankAmount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxBZGRPdXJCYW5rQW1vdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/AdminPanel.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/AdminPanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxBZG1pblBhbmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ChangeOurBankAmount.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ChangeOurBankAmount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxDaGFuZ2VPdXJCYW5rQW1vdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ListOfPendingRequests.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ListOfPendingRequests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxMaXN0T2ZQZW5kaW5nUmVxdWVzdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ListOfRejectedRequests.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ListOfRejectedRequests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxMaXN0T2ZSZWplY3RlZFJlcXVlc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/oops.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/oops.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxvb3BzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/RepayMoney.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/RepayMoney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxSZXBheU1vbmV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/SendBorrowerEmail.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/SendBorrowerEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxTZW5kQm9ycm93ZXJFbWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ViewBorrowerDetails.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ViewBorrowerDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxWaWV3Qm9ycm93ZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ViewCurrentBalance.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/SuperAdmin/ViewCurrentBalance.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJBZG1pblxWaWV3Q3VycmVudEJhbGFuY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/_ViewImports.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/_ViewStart.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/_Layout.cshtml]
+[c:/Users/aconte/Desktop/projects/Apps/MoneyLandingApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-psash00t5l
